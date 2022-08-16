@@ -1,0 +1,141 @@
+// Styles
+// CoreUI Icons Set
+@import '~@coreui/icons/css/coreui-icons.css';
+// Import Flag Icons Set
+@import '~flag-icon-css/css/flag-icon.min.css';
+// Import Font Awesome Icons Set
+@import '~font-awesome/css/font-awesome.min.css';
+// Import Simple Line Icons Set
+@import '~simple-line-icons/css/simple-line-icons.css';
+// Import Main styles for this application
+@import './scss/style.scss';
+
+
+.login-card {
+  border: 1px solid rgba(255, 255, 255, 0.20) !important;
+  box-shadow: 12px 12px 32px 0 rgba(217, 210, 200, 0.51) !important;
+  border-radius: 12px !important;
+}
+
+.row-class {
+  margin-top: 200px;
+}
+
+.title {
+  color: #321fdb !important;
+}
+
+.custom-btn {
+  background-color: #321fdb !important;
+  color: white !important;
+}
+
+span.validation {
+  color: red !important;
+}
+
+.register-card {
+  background-color: #321fdb !important;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.signup-text {
+  color: white;
+}
+
+.red {
+  color: red;
+}
+
+.signup-card-header {
+  border-color: #321fdb !important;
+  margin-top: 25px !important;
+}
+
+.none {
+  resize: none;
+}
+
+.search {
+  margin: 25px;
+  width: 200px !important;
+}
+
+.Exports{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.ExportsCustomers{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.SearchCampName{
+  margin-left: 20px;
+}
+
+.Cancel{
+  margin-left: 20px;
+}
+.loadData{
+  margin-right: 10px;
+}
+
+.collapseButton{
+  margin-bottom: 10px;
+}
+.backGroundColor{
+  background-color: #20a8d8;
+  color: white !important;
+}
+.minMax{
+  width: 80%;
+  margin-left:10px;
+}
+.share{
+  width: 80%;
+  margin-left:2px;
+}
+.deleteObjectSetting{
+  width:85px;
+  height: 35px;
+}
+.formulaCard{
+  width:700px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+.shareNumber{
+  width:20%;
+}
+.customersDropdown{
+  width: 200px;
+}
+.AccountsDropdown{
+  width: 200px;
+}
+.table-bgColor{
+  background: lightblue;
+}
+.campaign-list {
+  .ant-table-tbody  {
+    tr.table-bgColor {
+      td {
+        &:hover {
+          background: lightblue;
+        }
+      }
+      &:hover {
+        background: lightblue;
+      }
+    }
+    tr.ant-table-row {
+      &:hover {
+        td {
+          background: unset;
+        }
+      }
+    }
+  }
+}

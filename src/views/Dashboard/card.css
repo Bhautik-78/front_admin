@@ -1,0 +1,10 @@
+.DashBoardCard{
+  font-size: 25px;
+  width: 400px;
+  height: 250px
+}
+
+.chartjs-render-monitor{
+  width: 50% !important;
+  height: 400px !important;
+}
